@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/1f958acecf.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <title>Mizuxe by Salle</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      id="navbar"
+      class="navbar fixed-top navbar-expand-md navbar-light py-4"
+    >
+      <div class="container">
+        <a href="#home-section" class="navbar-brand">
+          <img src="img/mlogo.png" width="50px" alt="Logo" class="img-fluid" />
+          <h3 class="d-inline align-middle">Mizuxe</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#authors-section" class="nav-link">Meet The Authors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section class="home-section" id="home-section">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col col-lg-6 text-center mt-5">
+              <h1 class="display-2 mt-5">Do What You Dream Of...</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, obcaecati!
+              </p>
+              <button class="btn btn-lg btn-outline-secondary text-white">
+                Read More
+              </button>
+            </div>
+            <div class="d-none d-lg-block col-md-6">
+              <img src="img/book.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBSCRIBE SECTION -->
+    <section class="subscribe-section bg-secondary p-4" id="subscribe-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Enter Name"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-primary btn-lg btn-block">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getUTCFullYear());
+    </script>
+  </body>
+</html>

@@ -29,8 +29,28 @@ body {
   background: rgba(50, 146, 166, 0.8);
 }
 
+.card-section .card-border-primary {
+  border: 1px solid #3292a6;
+}
+
+.card-section .card-border-primary h3 {
+  color: #3292a6;
+}
+
+.card-section .card-bg-primary {
+  background: #3292a6;
+  color: #fff;
+}
+
+#accordion .card-header:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   #home-section h1 {
     font-size: 4rem;
+  }
+  #card-section .card {
+    margin-bottom: 1rem;
   }
 }

@@ -1,3 +1,6 @@
+// VARIABLES
+$primary-color: rgb(50, 146, 166);
+
 // BODY
 body {
   margin-top: 105px;
@@ -33,11 +36,42 @@ body {
   background: rgba(50, 146, 166, 0.8);
 }
 
+// CARDS SECTION
+.card-section {
+  .card-border-primary {
+    border: 1px solid $primary-color;
+
+    h3 {
+      color: $primary-color;
+    }
+  }
+
+  .card-bg-primary {
+    background: $primary-color;
+
+    color: #fff;
+  }
+}
+
+// ABOUT SECTION
+// ACCORDION
+#accordion {
+  .card-header:hover {
+    cursor: pointer;
+  }
+}
+
 // Media Queries
 @media (max-width: 768px) {
   #home-section {
     h1 {
       font-size: 4rem;
+    }
+  }
+
+  #card-section {
+    .card {
+      margin-bottom: 1rem;
     }
   }
 }

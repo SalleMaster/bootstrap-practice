@@ -54,3 +54,26 @@ body {
     margin-bottom: 1rem;
   }
 }
+
+#authors-section .authors .card {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+#authors-section .authors .card img {
+  margin-top: -50px;
+}
+
+#authors-section .authors .card:hover {
+  background: #3292a6;
+  color: white;
+}
+
+#authors-section .authors .card:hover a {
+  color: white;
+}
+
+#authors-section .authors .card:hover a:hover {
+  color: grey;
+}

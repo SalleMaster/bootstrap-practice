@@ -75,3 +75,29 @@ body {
     }
   }
 }
+
+// AUTHORS SECTION
+#authors-section {
+  .authors {
+    .card {
+      align-self: stretch;
+
+      img {
+        margin-top: -50px;
+      }
+
+      &:hover {
+        background: $primary-color;
+        color: white;
+
+        a {
+          color: white;
+
+          &:hover {
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+}
